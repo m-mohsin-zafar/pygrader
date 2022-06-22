@@ -1,7 +1,8 @@
 numpy==1.19.2
 pandas==1.2.3
-dash~=2.1.0
-plotly~=5.1.0
+werkzeug==2.0.3
+dash
+plotly
 dash-core-components
 dash-daq
 dash-html-components
