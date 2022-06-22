@@ -1,0 +1,101 @@
+.Select-control {
+    background-color: rgb(30, 30, 30);
+}
+
+div.Select-menu-outer {
+    background-color: #303030;
+}
+
+.is-searchable.is-focused:not(.is-open) > .Select-control, .is-searchable.is-open > .Select-control {
+    background-color: rgb(30, 30, 30);
+    cursor: text;
+}
+
+div.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner .column-header-name {
+    margin-left: unset;
+    padding: 2px;
+}
+
+/*.gi-table > .dash-spreadsheet-container > .dash-spreadsheet-inner > table {*/
+/*    border: none !important;*/
+/*}*/
+
+div#gi-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr {
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-weight: 200;
+}
+
+div#gi-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr td {
+    padding: 5px;
+}
+
+div#grade-dist-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr {
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-weight: 200;
+}
+
+div#grade-dist-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr td {
+    padding: 5px;
+}
+
+button.export:hover {
+    color: #fff;
+    background-color: #375a7f;
+    border-color: #375a7f;
+}
+
+button.export {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-bottom: 4px;
+
+}
+
+button.export {
+    color: #375a7f;
+    border-color: #375a7f;
+}
+
+div#final-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr {
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-weight: 200;
+}
+
+div#final-table.dash-table-container div.dash-spreadsheet-container.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dash-spreadsheet-inner.dash-spreadsheet.dash-empty-01.dash-no-filter.dash-fill-width div.dt-table-container__row.dt-table-container__row-1 div.cell.cell-1-1.dash-fixed-content table.cell-table tbody tr td {
+    padding: 5px;
+}
+
+mark {
+    background-color: rgb(30, 30, 30);
+    color: beige;
+}
+
+footer > p {
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+}
