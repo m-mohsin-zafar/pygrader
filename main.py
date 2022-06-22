@@ -33,6 +33,7 @@ grade_dist: DataFrame = None
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY, './assets/main.css'])
+server = app.server
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 app.config['suppress_callback_exceptions'] = True
 
@@ -586,4 +587,5 @@ app.layout = dbc.Container(
     fluid='sm'
 )
 
-app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(debug=False)
